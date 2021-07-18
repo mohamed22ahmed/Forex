@@ -1,0 +1,38 @@
+@import"../abstracts/variables";
+.section-about {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.section-service {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+.section-propaganda {
+    background-image: url("../img/co.jpg");
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+.section-update {
+    margin-top: 12rem;
+    background-image: url(../img/section1.jpg);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.footer {
+    background-color: #222;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    &__contents {
+        padding-top: 3rem;
+        &--icon {
+            margin-right: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+}

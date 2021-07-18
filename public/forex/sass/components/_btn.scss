@@ -1,0 +1,119 @@
+.btn {
+
+    &-primary {
+        color: #fff;
+        background-color: #009efb; 
+        border-color: #009efb;
+    }
+
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: .5rem 2rem;
+        display: inline-block;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.4rem;
+        border: 0;
+    }
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0 10px 20px rgba($black-color, 0.2 );
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+    &:active {
+        transform: translateY(-.1rem);
+        box-shadow: 0 5px 10px rgba($black-color , 0.2 );
+    }
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .5s;
+    }
+
+
+    /***** End all shared butons style *****/
+
+
+    /***** Start btn Animated *****/
+
+    &--animated-top-bottom {
+        animation: moveInBottom 2s linear;
+    }
+
+    /*****  End btn Animated  *****/
+
+    /***** Start white buton style *****/
+
+    &--white {
+        background-color: $white-color;
+        color: $grey-dark-color;  
+        &::after {
+            background-color: $white-color;
+        }
+    }
+/***** End white buton style *****/ 
+    &--blue {
+        background-color: $blue-color;
+        color: $white-color;  
+        &::after {
+            background-color: $blue-color;
+        }
+    }
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: $blue-color;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $blue-color ;
+        padding: 3px;
+        transition: all .2s;
+    }
+
+    &:hover {
+        background-color: $blue-color;
+        color: $white-color;
+        box-shadow: 0 1rem 2rem rgba($black-color, .15);
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 .5rem 1rem rgba($black-color, .15);
+        transform: translateY(0);
+    }
+}
+
+
+/**** Go Up Button ****/
+
+#goUPButton {
+    display: none;
+    font-size: 35px;
+    color: #FFF;
+    background-color: #000;
+    border-radius: 50%;
+    width: 52px;
+    height: 53px;
+    padding-bottom: 55px;
+    position: fixed;
+    right: 20px;
+    bottom: 19px;
+    cursor: pointer;
+    z-index: 999999;
+    text-align: center;
+}

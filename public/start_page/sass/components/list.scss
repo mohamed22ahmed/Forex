@@ -1,0 +1,30 @@
+.primary-box {
+    padding-top: 5rem;
+    li {
+        position: relative;
+        display: block;
+        background: #f4f3f0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #737879;
+        padding: 27px 20px 28px 66px;
+        margin-bottom: 10px;
+        transition: all .5s;
+
+        &::before {
+            position: absolute;
+            content: "\f058";
+            font-family: 'Font Awesome 5 Free';
+            left: 30px;
+            top: 27px;
+            font-size: 16px;
+            color: #008391;
+            font-weight: 600;
+        }
+        &:hover {
+            background: $blue-color;
+            color: $white-color;
+        }
+    }
+}

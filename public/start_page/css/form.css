@@ -1,0 +1,151 @@
+/******Form*******/
+::-webkit-scrollbar {
+width: 12px;
+height: 5px;
+}
+
+::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #000;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #000; 
+box-shadow: inset 0 0 6px rgba(0,0,0,0.4); 
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(20deg, #5e72e4, #87CEEB, #C0C0C0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top:3rem ;
+    position: relative;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #5e72e4;
+    background-color: #5e72e4;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+a {
+    font-size: 1.2rem;
+}
+.page-content {
+    position: absolute;
+    top: 3rem; 
+    left: 0;
+    height: 100%; 
+    width: 100%; 
+    z-index: 1;
+}
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/********** Header ************/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__img {
+    width: 10rem;
+}
+.nave__photo {
+    width: 100%;
+}
+.btn-white  {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #5e72e4;
+    background-color: #FFF;
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.btn-primary,.btn-success {
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border: none;
+
+}
+.content-cover__heading {
+    color:#fff;
+    font-size: 6.5rem;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1rem;
+}
+
+.content-cover__paragraph {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    font-family: 'Changa', sans-serif; 
+    letter-spacing: .2rem;
+}
+
+
+/*********** Card **********/
+.card {
+    text-align: right;
+    color: black;
+    background: #f9fafa;
+    border: .1rem solid #ddd;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    padding: 4rem;
+}
+.close {
+    color: #000;
+    font-size: 2rem;
+}
+.h4content {
+    margin-top: 2rem;
+}
+.form {
+    padding-top: 4rem;
+}
+.input {
+    border: 0;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+select {
+    font-size: 1.5rem !important;
+    height: 4rem !important;
+    border: 0 !important;
+    box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+    text-indent: 1rem;
+}
+
+@media(max-width:700px) {
+    .content-cover__heading {
+        font-size: 3.5rem !important;
+    }
+}

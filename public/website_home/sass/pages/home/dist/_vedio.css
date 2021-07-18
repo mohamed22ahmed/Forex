@@ -1,0 +1,58 @@
+.vedio-title {
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.3;
+  border-radius: 0px;
+}
+
+.vedio-sub {
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  color: #3d3d3d;
+  text-align: center;
+  line-height: 1.4;
+  border-radius: 0px;
+  margin-bottom: 3rem;
+}
+
+.btn-vedio {
+  height: 44px !important;
+  width: 200px !important;
+  padding: 0px;
+  cursor: pointer;
+  background: none transparent;
+  border: 1px solid #40aacf;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #40aacf;
+  line-height: 1;
+  border-radius: 120px;
+  transition: background 200ms ease 0s;
+  margin-top: 5rem !important;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.search-sales {
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  height: 43px;
+  position: relative;
+  vertical-align: top;
+  border-radius: 50px;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #383838;
+  padding: 0px 15px;
+  transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+}

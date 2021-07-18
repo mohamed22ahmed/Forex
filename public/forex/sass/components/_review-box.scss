@@ -1,0 +1,44 @@
+.review-box-section {
+    margin-top: 2.5rem;
+    color: $white-color;
+    .review-box {
+        height: 10rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff;
+        background-image: linear-gradient(to right, rgba(0, 158, 251, 0.80), #ffffff);
+        font-size: 14px;
+        box-shadow: 0 1px 6px 1px rgba(69, 65, 78, 0.1);
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        &__content {
+            padding: 3rem 0 1rem 3rem;
+        }
+        &__icons {
+            
+            position: relative;
+            i {
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: rgb(255, 255, 255);
+                background: #009efb;
+                padding: 30px 30px;
+                border-radius: 50px 0px 0px 50px;
+                text-align: center;
+                line-height: 2;
+                width: 30%;
+                height: 100%;
+                font-size: 2rem;
+            }
+        }
+        h4 {
+            font-weight: bolder;
+            font-size: 1.7rem;
+        }
+        p {
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+    }
+}

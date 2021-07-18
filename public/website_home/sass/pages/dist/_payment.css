@@ -1,0 +1,108 @@
+.payment-section {
+  height: 89px;
+  width: 145px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  cursor: pointer;
+  padding-top: 1rem;
+}
+
+.payment-section__h2 {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #5c5c5c;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 0px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.payment-section__btn {
+  height: 34px;
+  width: 100px;
+  padding: 0px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  color: white;
+  line-height: 1.4;
+  border-radius: 24px;
+  transition: all 200ms ease 0s;
+}
+
+.pay-box {
+  border: 1px dotted rgba(121, 185, 191, 0.51);
+}
+
+.left-border {
+  height: 136px;
+  width: 207px;
+  left: 0px;
+  top: 39px;
+  border-radius: 0px;
+  border-style: none none none dotted;
+  border-width: 1px;
+  border-color: #6b6b6b #6b6b6b #6b6b6b rgba(121, 184, 191, 0.51);
+  cursor: pointer;
+}
+
+.li-list {
+  padding-bottom: 15px;
+  padding-left: 10px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #40aacf;
+  line-height: 1.4;
+  border-radius: 0px;
+}
+
+.project__title {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 600;
+  color: black;
+  line-height: 1.4;
+  border-radius: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.project__desc {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: black;
+  line-height: 1.4;
+  border-radius: 0px;
+  padding: 0px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.content {
+  line-height: 1.9;
+}
+
+.active-box {
+  border: 1px solid #9ccc65;
+}
+
+.non-active-box {
+  border: 1px solid #9fd4e6 !important;
+}
+
+.active-btn {
+  background: none #9ccc65;
+  border: 1px solid #9ccc65;
+}
+
+.non-active-btn {
+  background: none #9fd4e6 !important;
+  border: 1px solid #9fd4e6 !important;
+}

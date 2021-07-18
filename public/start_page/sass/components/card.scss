@@ -1,0 +1,25 @@
+.card {
+    background-color: transparent !important;
+    padding-bottom: 4rem;
+    border: 0px !important;
+    transition: all .5s;
+    margin-top: 1rem;
+    &__img {
+        width: 100%;
+    }
+    &__heading {
+        padding-top: 6rem;
+        padding-bottom: 1rem;
+    }
+    &:hover {
+        background-color: $blue-color !important;
+    }
+    &:hover {
+        padding-top: .3rem;
+    }
+    &:hover .paragraph {
+            color: $white-color;
+
+    }
+
+}

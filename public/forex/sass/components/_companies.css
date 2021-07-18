@@ -1,0 +1,152 @@
+.card {
+  background-color: #FFF;
+  margin-left: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: transform .5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.image-top {
+  width: 100%;
+  height: 220px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(3, 3, 3, 0.5)), url(../img/img-top1.jpeg);
+  background-size: cover;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -5.5rem;
+  border: 10px solid #eee;
+  z-index: 2;
+  background-image: url("../../img/Logo_globmid.png");
+  background-size: cover;
+  background-color: #FFF;
+}
+
+.fullname {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  color: #555;
+}
+
+.job {
+  font-family: 'Montserrat', sans-serif;
+  color: #777;
+  font-weight: 300;
+}
+
+.about-me {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 90%;
+  margin: 15px 0;
+  font-style: italic;
+  color: #444;
+  text-align: center;
+}
+
+.card-button {
+  width: 120px;
+  padding: 7px;
+  margin: 10px 0;
+  background-color: tomato;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #eee;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover button {
+  animation: buttonRotation 2s 0s linear;
+}
+
+.social-icons {
+  width: 150px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0 20px 0;
+  border-top: 1px solid #999;
+  padding-top: 20px;
+}
+
+.social-icons li {
+  display: inline;
+}
+
+.social-icons i {
+  font-size: 18px;
+}
+
+.fa-facebook-f {
+  color: #3b5999;
+}
+
+.fa-youtube {
+  color: #cd201f;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+@media (max-width: 1300px) {
+  .heading {
+    font-size: 65px;
+    width: 80%;
+  }
+  .image-top {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    width: 90%;
+  }
+  .cards-wrapper {
+    flex-wrap: wrap;
+    padding: 300px 0 200px 0;
+  }
+  .card {
+    margin: 0 30px 50px 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 50px;
+  }
+  .heading::after {
+    height: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .heading {
+    font-size: 40px;
+  }
+  .heading::after {
+    height: 33px;
+  }
+  .cards-wrapper {
+    padding: 250px 0 150px 0;
+  }
+}

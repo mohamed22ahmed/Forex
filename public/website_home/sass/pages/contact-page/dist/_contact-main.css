@@ -1,0 +1,254 @@
+.nav-contact {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #00527f !important;
+  text-align: center;
+  line-height: 1;
+  padding-top: 10px;
+  border-radius: 0px;
+  font-weight: 400;
+}
+
+.contact-main {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.Contact {
+  margin-top: 19rem;
+}
+
+.contact-content__title {
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: "Open Sans";
+  font-size: 34px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  line-height: 1.4;
+  border-radius: 0px;
+}
+
+.location-content {
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: "Open Sans";
+  font-size: 19px;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  line-height: 1.7;
+  border-radius: 0px;
+  cursor: pointer;
+  word-break: break-word;
+  font-style: normal;
+}
+
+.globe-icon {
+  padding: 0px;
+  text-align: center;
+  cursor: inherit;
+  background: none;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+.contact-operations {
+  margin-top: 2rem;
+}
+
+.contact-img {
+  padding-top: 10rem;
+}
+
+.contact-input {
+  width: 400px;
+  height: 48px !important;
+  background-color: white;
+  border-radius: 40px;
+  font-family: "Open Sans";
+  font-size: 16px !important;
+  color: black;
+  padding: 0px 20px;
+  transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+}
+
+.textarea-contact {
+  height: 100px;
+  width: 400px;
+  border: 1px solid #e3e3e3;
+  background-color: white;
+  border-radius: 16px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: black;
+  line-height: 1;
+  padding: 12px 20px;
+  transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+}
+
+.submit-contact-btn {
+  height: 56px !important;
+  width: 400px;
+  left: 0px;
+  top: 0px;
+  padding: 0px;
+  cursor: pointer !important;
+  background: -webkit-linear-gradient(left, #9473dd 0%, #1ac9e4 100%);
+  border: none;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px !important;
+  font-weight: 600;
+  color: white;
+  line-height: 1;
+  border-radius: 30px;
+  transition: background 200ms ease 0s;
+  margin-top: 2rem;
+}
+
+.best-project {
+  margin-top: 10rem;
+}
+
+.best-project__content {
+  margin-top: 7rem;
+}
+
+.box-con {
+  padding: 7rem;
+  width: 488px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  transition: background 200ms ease-in 0s, box-shadow 200ms ease-in 0s;
+}
+
+.box-con--content {
+  width: 280px;
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 1;
+  padding-top: 6px;
+  border-radius: 0px;
+  transition: color 200ms ease-in 0s;
+  text-transform: uppercase;
+}
+
+.box-con--content-second {
+  width: 300px;
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #00527f;
+  text-align: center;
+  line-height: 1.33;
+  border-radius: 0px;
+  transition: color 200ms ease-in 0s;
+  margin-top: 1rem;
+}
+
+.box-con .color-2 {
+  color: #fd6cae !important;
+}
+
+.box-con .price-sub {
+  width: 158px;
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: "Open Sans";
+  font-size: 41px;
+  font-weight: 800;
+  color: rgba(251, 140, 110, 0.35);
+  text-align: center;
+  line-height: 1.33;
+  border-radius: 4px;
+  transition: color 200ms ease-in 0s, background 200ms ease-in 0s;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.box-con .list-box {
+  overflow: visible;
+  padding-bottom: 0px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: black;
+  line-height: 1.8;
+  border-radius: 0px;
+  transition: color 200ms ease-in 0s;
+  padding: 3rem;
+}
+
+.box-con .btn-box-choose .btn-choose {
+  height: 50px;
+  width: 175px;
+  padding: 0px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, #9473dd 0%, #1ac9e4 100%);
+  border: none;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  line-height: 1;
+  border-radius: 30px;
+  transition: color 200ms ease-in 0s, background 200ms ease-in 0s;
+  box-shadow: none;
+}
+
+.box-con .btn-box-choose .color-sub {
+  background: -webkit-linear-gradient(left, #fd6cae 0%, #fb8c6e 100%) !important;
+}
+
+.btn-choose {
+  height: 50px;
+  width: 175px;
+  padding: 0px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(left, #9473dd 0%, #1ac9e4 100%);
+  border: none;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  line-height: 1;
+  border-radius: 30px;
+  transition: color 200ms ease-in 0s, background 200ms ease-in 0s;
+  box-shadow: none;
+}
+
+.color-shadow {
+  background-color: white;
+  box-shadow: rgba(84, 89, 94, 0.4) 0px 24px 34px 0px;
+  z-index: 9;
+}
+
+.border-main {
+  border: 1px solid rgba(0, 80, 130, 0.15);
+}
+
+.sub:hover {
+  background: linear-gradient(120deg, rgba(247, 183, 51, 0.1) 0%, rgba(252, 74, 26, 0.1) 100%) !important;
+}
+
+.sub2:hover {
+  background: linear-gradient(120deg, rgba(0, 195, 220, 0.1) 0%, rgba(0, 82, 127, 0.1) 100%) !important;
+}
+
+.sub:hover .price-sub {
+  color: #fa8b6c;
+}

@@ -1,0 +1,13 @@
+.review-box-section {
+  margin-top: 2.5rem;
+}
+
+.review-box-section .review-box {
+  background-color: #ffffff;
+  background-image: linear-gradient(to right, rgba(0, 158, 251, 0.8), #ffffff);
+  padding: 1rem;
+  font-size: 14px;
+  box-shadow: 0 1px 6px 1px rgba(69, 65, 78, 0.1);
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}

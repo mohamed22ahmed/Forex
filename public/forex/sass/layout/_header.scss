@@ -1,0 +1,35 @@
+.header {
+    border-radius: 0;
+    background: #009efb;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 0 3rem;
+    &__nav {
+        &--brand {
+            padding-top: 1rem;
+            h2 {
+                font-size: 2.2rem;
+            }
+        }
+        &--tools {
+            display: flex;
+            justify-content: center;
+
+
+            & > div {
+                margin-right: 2.5rem;
+                padding: 1.5rem 1rem;
+                font-size: 1.7rem;
+                color: $white-color;
+
+            }
+            .dropdown a {
+                color: $white-color;
+                i {
+                    font-size: 2rem;
+                    padding-top: 1rem;
+                }
+            }
+        }
+    }
+
+}

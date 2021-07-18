@@ -1,0 +1,81 @@
+.footer {
+  background-color: #f5f9fa;
+  padding: 5rem;
+}
+
+.footer__title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.6;
+  border-radius: 0px;
+  word-break: break-word;
+  margin-bottom: 1rem;
+}
+
+.footer li {
+  font-family: 'Roboto';
+  pointer-events: auto;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #5c5a7c;
+  line-height: 1.6;
+  border-radius: 0px;
+  font-style: normal;
+  margin-top: .5rem;
+}
+
+.footer .third li {
+  height: 34px;
+  width: 34px;
+  border-radius: 100px;
+  padding-top: 6px;
+}
+
+.footer .third .face {
+  background: none #3b5998;
+}
+
+.footer .third .twi {
+  background: none #3b5998;
+}
+
+.footer .third .goog {
+  background: none #3b5998;
+}
+
+.footer .third .linked {
+  background: none #3b5998;
+}
+
+.footer .third .insta {
+  background: none #3b5998;
+}
+
+.footer .third .youtu {
+  background: none #3b5998;
+}
+
+.footer .third a {
+  pointer-events: auto;
+  font-family: Lato;
+  font-size: 14px;
+  color: #4083a9;
+  line-height: 1;
+  border-radius: 0px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer .third i {
+  text-align: center;
+  cursor: inherit;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 0px;
+}

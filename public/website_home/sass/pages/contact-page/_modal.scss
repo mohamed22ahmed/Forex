@@ -1,0 +1,103 @@
+.modal-title {
+    overflow: visible;
+    padding-bottom: 0px;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1.4;
+    border-radius: 0px;
+}
+.card-modal {
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+.card-color-active {
+    background-color: rgba(203, 234, 242, 0.3);
+}
+.card-color-not-active {
+    background: none rgb(255, 255, 255);
+    border-radius: 16px;
+    border: 1px solid rgba(61, 127, 156, 0.16);;
+}
+.card-modal-title {
+    overflow: visible;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    border-radius: 0px;
+}
+.card-modal-sub {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1.4;
+    border-radius: 0px;
+    padding: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.active-mark {
+    color: rgb(253, 108, 174);
+}
+.modal-input {
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 40px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    text-align: left;
+    margin-top: 2rem;
+}
+.textarea-modal {
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    height: 151px !important;
+    width: 400px;
+    border-radius: 16px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    padding: 10px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    margin-top: 2rem;
+}
+.btn-up-modal {
+    height: 46px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 78, 130, 0.21);
+    border-radius: 16px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+    box-shadow: none;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: rgb(0, 80, 130);
+    text-align: center;
+    line-height: 1;
+    padding-top: 4px;
+}

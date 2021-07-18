@@ -1,0 +1,48 @@
+.our-story {
+    margin-top: 8rem;
+}
+.our-story--paragraph {
+    overflow: visible;
+    padding-bottom: 0px;
+    font-family: Roboto;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    line-height: 1.7;
+    border-radius: 0px;
+    width: 878px;
+}
+/**** Our Team in about-page ****/
+.our-team {
+    margin-top: 10rem;
+}
+.team-number {
+    overflow: visible;
+    font-family: "Open Sans";
+    font-size: 64px;
+    font-weight: 800;
+    color: rgba(216, 228, 232, 0.69);
+    text-align: center;
+    line-height: 1;
+    border-radius: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-style: normal;
+    word-break: break-word;
+}
+.team-name {
+    overflow: visible;
+    padding-bottom: 0px;
+    font-family: "Open Sans";
+    font-size: 24px;
+    color: rgb(138, 144, 148);
+    line-height: 1.5;
+    border-radius: 0px 0px 1px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    cursor: pointer;
+    margin-left: -4rem;
+
+    &:hover {
+        color: rgb(0, 82, 127);
+        border-color: rgb(107, 107, 107) rgb(107, 107, 107) rgb(0, 82, 127);
+    }
+}

@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+  .left {
+    width: 14% !important;
+  }
+  .right {
+    width: 70% !important;
+  }
+  .card {
+    margin-top: 2rem;
+  }
+  .dropdown2 {
+    display: none;
+  }
+  .our-nav {
+    justify-content: center !important;
+  }
+  .chat {
+    width: 67% !important;
+  }
+  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+  h4 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .slider {
+    margin-top: 5px !important;
+  }
+  .slid-btn {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+  .h1-con {
+    font-size: 25px !important;
+    margin-top: 14rem !important;
+    height: 0px !important;
+  }
+  .def-con {
+    font-size: 18px !important;
+    margin-top: 7rem !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .left {
+    width: 30% !important;
+  }
+  .right {
+    width: 70% !important;
+  }
+  .right-chat {
+    display: none;
+  }
+  .left-chat {
+    width: 100% !important;
+  }
+  #back-btn {
+    display: block;
+  }
+  .form-card {
+    width: 100% !important;
+  }
+  .chat {
+    width: 67% !important;
+  }
+  .click-play {
+    position: absolute;
+    right: 246px !important;
+    bottom: 14rem !important;
+  }
+  .slider__content-con {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .left {
+    width: 40% !important;
+    display: none;
+  }
+  .right {
+    width: 100% !important;
+  }
+  .slide-in {
+    display: none;
+  }
+  .slide-out {
+    display: block;
+  }
+  .chat {
+    margin-top: 8rem !important;
+    width: 96% !important;
+  }
+  .chat-card {
+    margin-top: -38px;
+  }
+  h1 {
+    font-size: 19px !important;
+    text-align: center !important;
+  }
+  h2 {
+    font-size: 14px !important;
+    text-align: center !important;
+  }
+  h3 {
+    font-size: 12px !important;
+    text-align: center !important;
+  }
+  h4 {
+    font-size: 10px !important;
+    text-align: center !important;
+  }
+  .slider__content-con {
+    padding-top: 10rem !important;
+  }
+  .click-play {
+    position: absolute;
+    bottom: 78px !important;
+    right: 162px !important;
+  }
+  .slid-btn {
+    text-align: center;
+  }
+}

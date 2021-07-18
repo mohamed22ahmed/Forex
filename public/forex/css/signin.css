@@ -1,0 +1,179 @@
+*, *::after, *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+    html {
+        font-size: 62.5%; //1 rem = 10px
+    }
+    body {
+        box-sizing: border-box;
+    }
+.container-fluid {
+      background-image: url(../amir.jpg);
+      background-size: cover;
+      background-position: top;
+      min-height: 100vh;
+      position: relative;
+    }
+    @media only screen and (max-width: 37.5em) {
+    .container-fluid {
+      background-image: url(../amir-small.jpg); } }
+
+.u-margin-bottom-medium {
+  text-align: center;
+  margin-bottom: 4rem !important; }
+  @media only screen and (max-width: 37.5em) {
+    .u-margin-bottom-medium {
+      margin-bottom: 3rem !important; } }
+
+.form_box{
+  background: rgba(0,0,0,0.5);
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 3rem;
+  color: #000;
+}
+@media only screen and (max-width: 37.5em) {
+    .form_box {
+      width: 80%; } 
+    }
+
+
+.form_group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form_input {
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: .2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 90%;
+  display: block; }
+  @media only screen and (max-width: 37.5em) {
+    .form_input {
+      width: 100%; } }
+  .form_input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #55c57a; }
+    .form_input:focus:invalid {
+      border-bottom: 3px solid #ff7730; }
+  .form_input::placeholder {
+    color: #000; }
+
+.form_label {
+  color: #fff;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: block;
+  transition: all .3s;
+  transform: translateY(-4rem);  }
+
+.form_input:placeholder-shown + .form_label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0); }
+  .signup{
+    margin-top: 1rem;
+    color: #bbb;
+    font-size: 1.6rem;
+  }
+  .signup>a,.signup>a:link,.signup>a:visited{
+    color: #bbb;
+    text-decoration: none;
+    transition: all .2s;
+    position: relative;
+    display: inline-block;
+  }
+  .signup>a:hover{
+    color: #fff;
+    transform: translateY(-1px);
+  }
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  background-color: #dcd105;
+  color: #000; }
+  .btn::after {
+    content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; 
+    background-color: #fff;  }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active {
+  transform: translateX(-1px);
+  box-shadow: 0 0.5rem 0.1rem rgba(0, 0, 0, 0.2); }
+
+.Sign-logo-box {
+          position: absolute;
+          top: 0rem;
+          right: 0rem;
+          transform: translate(50%,-50%);
+      }
+@media only screen and (max-width: 37.5em) {
+    .Sign-logo-box {
+      right: 50%; } 
+    }
+.Sign-logo-box  .logo {
+          height: 15rem;
+      }
+
+.login_icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: #000; 
+  }
+  .login-box{
+      text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        padding: 1.5rem 3rem;
+        position: relative;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+    }
+    .login_icon-box{
+      border-top-left-radius: 0.2rem;
+      border-bottom-left-radius: 0.2rem;
+      width: 4rem;
+      align-self: stretch;
+      display: flex;
+      background-color:  #dcd105;
+      align-items: center;
+      justify-content: center;
+    }

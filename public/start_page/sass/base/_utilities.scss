@@ -1,0 +1,28 @@
+.text-center-class {
+    text-align: center;
+}
+.margin-bottom-8 {
+    margin-bottom: 8rem;
+}
+.margin-bottom-small {
+    margin-bottom: 2rem;
+}
+.padding-top-9 {
+    padding-top: 9rem;
+}
+.padding-top-15 {
+    padding-top: 15rem;
+}
+.img-footer {
+    width: 50px; 
+    margin-bottom: 2rem; 
+    padding-left: 1rem;
+}
+a {
+    color:#777;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: $white-color;
+    }
+}
